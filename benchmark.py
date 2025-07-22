@@ -14,8 +14,7 @@ repeats = 1
 distributions = {
         'random':   lambda n: [random.randint(0, n) for _ in range(n)],
         'sorted':   lambda n: list(range(n)),
-        'reverse':  lambda n: list(range(n, 0, -1)),
-        'repeated': lambda n: [random.randint(0, 9) for _ in range(n)]
+        'reverse':  lambda n: list(range(n, 0, -1))
     }
 
 results = []
